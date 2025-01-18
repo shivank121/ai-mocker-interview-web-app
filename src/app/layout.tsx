@@ -2,7 +2,7 @@
 
 import { ReactNode } from "react";
 import { usePathname } from "next/navigation";
-import "./globals.css";
+import "../frontend/css/globals.css";
 
 import AuthProvider from "@/frontend/context/AuthProvide";
 

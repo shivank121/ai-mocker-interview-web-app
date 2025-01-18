@@ -7,6 +7,7 @@ import RegisterContainer from "@/frontend/containers/RegisterContainer";
 const page = () => {
   return (
     <div>
+      {/* <h1 className="bg-black">Register</h1> */}
       <RegisterContainer />
     </div>
   );
