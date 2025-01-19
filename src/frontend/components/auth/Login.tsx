@@ -2,7 +2,7 @@ import React from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 
 const Login: React.FC = () => {
-  const { data: session } = useSession();
+  // const { data: session } = u  seSession();
 
   return (
     <>
