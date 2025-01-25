@@ -129,7 +129,7 @@ export const yearlyChart = {
 };
 
 export const interviewOutcome = [
-  { name: "Passed", value: 50 },
+  { name: "Passed", value: 5 },
   { name: "Failed", value: 30 },
   { name: "Skipped", value: 20 },
 ];

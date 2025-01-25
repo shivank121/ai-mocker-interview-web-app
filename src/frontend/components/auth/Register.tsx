@@ -1,7 +1,24 @@
 import React from "react";
+import { useState } from "react";
+
 import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
 
 const Register = () => {
+
+  const handleChange = (e:any) => {
+    // setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    // Handle form submission logic
+  };
+
+
+
   return (
     <>
       <section className="bg-white">
@@ -50,7 +67,76 @@ const Register = () => {
             </div>
           </main>
         </div>
+
+        {/* <div className="max-w-md mx-auto p-8 bg-white rounded-lg shadow-md">
+      <h2 className="text-2xl font-semibold text-center mb-6">Register</h2>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div>
+          <Label htmlFor="firstName">First Name</Label>
+          <Input
+            id="firstName"
+            name="firstName"
+            type="text"
+            placeholder="Enter your first name"
+            // value={form.firstName}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <Label htmlFor="lastName">Last Name</Label>
+          <Input
+            id="lastName"
+            name="lastName"
+            type="text"
+            placeholder="Enter your last name"
+            // value={form.lastName}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <Label htmlFor="email">Email</Label>
+          <Input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email"
+            // value={form.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <Label htmlFor="password">Password</Label>
+          <Input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            // value={form.password}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <Label htmlFor="confirmPassword">Confirm Password</Label>
+          <Input
+            id="confirmPassword"
+            name="confirmPassword"
+            type="password"
+            placeholder="Confirm your password"
+            // value={form.confirmPassword}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <Button type="submit" className="w-full">Register</Button>
+      </form>
+    </div> */}
       </section>
+
+
     </>
   );
 };

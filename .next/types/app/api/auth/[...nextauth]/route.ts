@@ -1,4 +1,4 @@
-// File: /home/shivank/Projects/fullStack/ai-mocker-interview-web-app/src/app/api/auth/[...nextauth]/route.ts
+// File: /home/shivank/projects/fullStack/ai-mocker-interview-web-app/src/app/api/auth/[...nextauth]/route.ts
 import * as entry from '../../../../../../src/app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
