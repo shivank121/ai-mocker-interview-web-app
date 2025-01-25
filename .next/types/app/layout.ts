@@ -1,4 +1,4 @@
-// File: /home/shivank/Projects/fullStack/ai-mocker-interview-web-app/src/app/layout.tsx
+// File: /home/shivank/projects/fullStack/ai-mocker-interview-web-app/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
